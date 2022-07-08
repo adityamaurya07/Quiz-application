@@ -1,0 +1,25 @@
+.box2 {
+            border: 2px solid gray;
+            border-radius: 14px;
+            display: inline-block;
+            width: 93%;
+            height: 200px;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        .op {
+            border: 2px solid rgb(109, 101, 101);
+            border-radius: 10px;
+            display: flex;
+            width: 48em;
+            padding: 5px;
+            margin: 6px;
+            
+        }
+
+        .op:hover {
+            background-color: aqua;
+            cursor: pointer;
+        }
+    

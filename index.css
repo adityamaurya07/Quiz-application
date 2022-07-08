@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500&family=Ubuntu+Condensed&family=Ubuntu:wght@500&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.nav a {
+    list-style: none;
+    text-decoration: none;
+    display: inline-block;
+    margin: 3px;
+    padding: 13px;
+    color: rgb(9, 107, 244);
+}
+
+span {
+    color: rgb(122, 133, 59);
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    background-color: azure;
+}
+
+.container img {
+    display: flex;
+    width: 63px;
+    height: 61px;
+    padding: 2px;
+    margin: 2px;
+}
+
+h1 {
+    font-family: 'Ubuntu', sans-serif;
+    margin: 13px;
+}
+
+#second {
+    font-style: italic;
+    font-size: 26px;
+    display: inline-block;
+}
+
+.items {
+    background-color: rgb(194, 254, 254);
+    height: 200px;
+    margin: 13px auto;
+    padding: 10vh;
+
+}
+
+#quize {
+    position: absolute;
+    right: 72px;
+    width: 160px;
+    top: 110px;
+    border-radius: 100%;
+    opacity: 300%;
+}
+
+.second-container {
+    padding: 14px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.box a {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+    display: flex;
+    float: left;
+    color: rgb(222, 222, 206);
+    width: 237px;
+    height: 150px;
+    margin: 34px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 23px;
+}
+
+#box1 a {
+    background: url('/assets/tech.webp') center no-repeat;
+    background-size: 321px;
+
+}
+
+#box2 a {
+    background: url('/assets/capital.jpg') center no-repeat;
+    background-size: 321px;
+
+}
+
+#box3 a {
+    background: url('/assets/football.jpg')center no-repeat;
+    background-size: 321px;
+    color: blanchedalmond;
+
+}
+
+#box4 a {
+    background: url('/assets/gk.jpg') center no-repeat;
+    background-size: 321px;
+    object-fit: scale-down;
+
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.btn {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bolder;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: blue;
+    color: white;
+    width: 400px;
+    height: 27px;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+.btn:hover {
+    background-color: rgb(13, 235, 109);
+    color: #000;
+}
+
+.btn:active {
+    background-color: burlywood;
+}
